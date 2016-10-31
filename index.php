@@ -1,7 +1,7 @@
 <?php
 ob_start();
 define('API_KEY','243010172:AAEF1SImHWkNS717vGEgekasA8Yh4a-yg6w');
-$admin = "159887854";
+$admin = "273810726";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
@@ -53,10 +53,10 @@ if (isset($update->edited_message)){
     'reply_markup'=>json_encode([
       'inline_keyboard'=>[
         [
-          ['text'=>'alireza_PT','url'=>'https://telegram.me/alireza_PT']
+          ['text'=>'saeed_ieckta','url'=>'https://telegram.me/saeed_ieckta']
         ],
         [
-          ['text'=>'CreateBOT','url'=>'https://telegram.me/create_antispam_bot']
+          ['text'=>'team_spark','url'=>'https://telegram.me/TEAM_SPARK']
         ]
       ]
     ])
